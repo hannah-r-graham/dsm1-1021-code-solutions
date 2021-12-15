@@ -19,15 +19,11 @@ print(ages[2:6])
 #9
 print(ages[:3])
 #10
-if 17 in ages:
-    print(True)
-else:
-    print(False)
+print(True) if 17 in ages else print(False)
+    
 #11
-if 42 in ages:
-    print(True)
-else:
-    print(False)
+print(True) if 42 in ages else print(False)
+
 
 #13
 ages[2]=18
@@ -48,7 +44,7 @@ ages.insert(0,32)
 print(ages)
 
 #19
-ages.insert(4,37)
+ages.insert(5,37)
 print(ages)
 
 #22
